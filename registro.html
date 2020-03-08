@@ -68,6 +68,77 @@
       </nav>
     </div> <!--Contenedor -->
 </div> <!--Barra -->
+<section class="seccion contenedor">
+  <h2>Regitro de Usuario</h2>
+  <form id="registro" class="registro" action="index.html" method="POST">
+    <div id="datos_usuario" class="registro caja clearfix">
+      <div class="campo">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre">
+      </div>
+      <div class="campo">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Tu apellido">
+      </div>
+      <div class="campo">
+        <label for="apellido">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Tu email">
+      </div>
+      <div class="error"></div>
+    </div> <!--final de datos usuarios -->
+
+    <div id="paquetes" class="paquetes">
+<h3>Elige el numero de boletos</h3>
+<ul class="lista-precio clearfix">
+      
+  <li>
+    <div class="tabla-precio">
+      <h3>Pase por 1 dia (viernes)</h3>
+      <p class="numero">$30</p>
+      <ul>
+        <li>Bocadillos gratis</li>
+        <li>Todas las conferencias</li>
+        <li>Todos los talleres</li>
+      </ul>
+      <label for="pase_dia">Boletos deseados: </label>
+      <input type="number" min="0" id="pase_dia" size="3" placeholder="0">
+    </div>
+  </li>
+
+  <li>
+    <div class="tabla-precio">
+      <h3>Todos los dias</h3>
+      <p class="numero">$50</p>
+      <ul>
+        <li>Bocadillos gratis</li>
+        <li>Todas las conferencias</li>
+        <li>Todos los talleres</li>
+      </ul>
+      <label for="pase_completo">Boletos deseados: </label>
+      <input type="number" min="0" id="pase_completo" size="3" placeholder="0">
+    </div>
+  </li>
+
+  <li>
+    <div class="tabla-precio">
+      <h3>Pase por 2 dias (viernes y sabados)</h3>
+      <p class="numero">$45</p>
+      <ul>
+        <li>Bocadillos gratis</li>
+        <li>Todas las conferencias</li>
+        <li>Todos los talleres</li>
+      </ul>
+      <label for="pase_dosdias">Boletos deseados: </label>
+      <input type="number" min="0" id="pase_dosdias" size="3" placeholder="0">
+    </div>
+  </li>
+
+</ul>  
+
+    </div>
+
+  </form>
+</section>
 
 
 
